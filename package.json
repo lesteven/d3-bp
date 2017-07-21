@@ -11,9 +11,17 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "babel-cli": "^6.24.1",
-    "babel-preset-env": "^1.4.0",
-    "css-loader": "^0.28.0",
-    "style-loader": "^0.16.1"
+    "babel-core": "*",
+    "babel-loader": "*",
+    "babel-preset-env": "*",
+    "babel-preset-es2015": "*",
+    "css-loader": "*",
+    "html-webpack-plugin": "*",
+    "style-loader": "*",
+    "webpack": "*",
+    "webpack-dev-server": "*"
+  },
+  "dependencies": {
+    "d3": "*"
   }
 }
